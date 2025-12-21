@@ -115,7 +115,7 @@ nav ul li a{
 }
 .presentation .gauche h1 span{
     color: #ffb300;
-    font-weight: 700px;
+    font-weight: 700;
 }
 .presentation .gauche p{
     color: #fff;
@@ -366,7 +366,7 @@ input[type="submit"] {
     padding: 5px 15px;
     border-radius: 10px;
     background-color: #fff;
-    transition: 0.5;
+    transition:  all 0.5s;
 }
 input[type="submit"]:hover {
     background-color: green;
