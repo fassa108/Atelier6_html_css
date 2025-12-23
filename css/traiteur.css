@@ -1,0 +1,232 @@
+.presentation{
+    background: url(../images/banner-caterers.jpg);
+    background-color: #ffb300;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    position: relative;
+    height: 40vh;
+}
+.claire{
+    position: absolute;
+    background: rgb(243, 175, 93) ;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0.9;
+    mix-blend-mode: multiply;
+}
+
+.presentation .gauche{
+    width: 50%;
+    position: relative;
+    
+}
+
+.presentation .gauche h1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 10px;
+}
+.presentation .gauche h1 span{
+    color: #ffb300;
+    font-weight: 700;
+}
+.presentation .gauche p{
+    color: #fff;
+}
+
+
+
+
+.commander{
+    overflow: hidden;
+    width: 100%;
+}
+.commander .clair{
+
+    background: rgb(175, 98, 4);
+    opacity: 0.9;
+    width: 100%;
+    
+}
+.commande{
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    background: url(../images/banner-head-accueil.jpg);
+    background-size:cover;
+    background-position: center;
+    
+}
+
+.commande h2{
+    font-size: 28px;
+    color: #000;
+    margin: 10px;
+}
+.commande p{
+    font-size: 15px;
+    color: #ffb300;
+    margin: 10px;
+}
+.commande button{
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.commande button:hover{
+    color: #ffb300;
+    background-color: #ee7839;
+    padding: 15px 20px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
+}
+.commande button:hover span{
+    color: #fff;
+}
+
+
+.form-filtre{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: beige;
+}
+.form-filtre .filtre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+.form-filtre .filtre form .myflex{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin:0 10px;
+}
+
+.form-filtre .filtre form .myflex select{
+    background-color: #fff;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    margin:0 10px;
+}
+.form-filtre .filtre form .buton{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+.form-filtre .filtre form .b1 button{
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: #ffb300;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+.form-filtre .filtre form .b2 button{
+    padding: 5px 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.filtre form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-filtre .box{
+    display: flex;
+    width: 70%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+}
+.form-filtre .box .img{
+    object-fit: cover;
+    width: 350px;
+    height: 140px;
+    overflow: hidden;
+    align-self: center;
+}
+.form-filtre .box .filtre2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+}
+.form-filtre .box .filtre2 .desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.form-filtre .box .filtre2 .note{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.form-filtre .box .filtre2 .note p span{
+    color: #ffb300;
+}
+
+
+.form-filtre .box .filtre2 .note button{
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .form-filtre .box{
+    display: flex;
+    width: 80%;
+}
+.form-filtre .box .filtre2{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    
+}
+.filtre2 .note{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+} */

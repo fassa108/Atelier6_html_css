@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/formulaire.css">
+    <script src="https://kit.fontawesome.com/cea1cd501f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="logo du site">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#service">Restaurants</a></li>
+                <li><a href="formulaire.html">Cours de cuisine</a></li>
+                <li><a href="traiteur.html">Traiteurs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="boutons-header">
+            <button><span>Connexion</span></button>
+            <button class="btn">
+                <span>Inscription</span>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="formulaire">
+            <form action="traiter.php">
+                <h4>Informations de base</h4> 
+                <fieldset class="field-grid">
+                        
+                        <div>
+                            <label for="nom">Nom complet</label>
+                            <input id="nom" type="text">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input id="email" type="text" placeholder="bintadmin@gmail.com">
+                        </div>
+                        <div>
+                            <label for="mot-de-passe">Mot de passe</label>
+                            <input id="mot-de-passe" type="text">
+                        </div>
+                        <div>
+                            <label for="mot-passe">Confirmer le mot de passe</label>
+                            <input id="mot-passe" type="text">
+                        </div>
+                </fieldset>
+                <fieldset>
+                    <h4>Informations professionnelles</h4>
+                    <div>
+                        <label for="categorie">Categorie</label>
+                        <select name="" id="">
+                            <option value="">Selectionner une categorie</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="annee-exp">Annee.s d'experience</label>
+                        <input id="annee-exp" type="number">
+                    </div>
+                    <div>
+                        <label for="description">Dexcription</label>
+                        <textarea id="description" cols="20" rows="6"></textarea>
+                    </div>
+                    <div class="Special">
+                        <label for="">Services Proposes</label>
+                        <div class="check">
+                            <div class="check-box">
+                                <input id="mariage" type="checkbox">
+                                <label for="mariage">Mariage</label>
+                            </div>
+                            <div class="check-box">
+                                <input id="mariage" type="checkbox">
+                                <label for="mariage">Mariage</label>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <h4>Informations de contact</h4>
+                <fieldset class="field-grid">
+                    
+                    <div>
+                        <label for="tel">Telephone</label>
+                        <input id="tel-exp" type="tel">
+                    </div>
+                    <div>
+                        <label for="adresse">Adresse</label>
+                        <input id="adresse" type="text">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <h4>Photo de profil</h4>
+                    <div>
+                        <label for="photo">Photo</label>
+                        <input type="file" id="photo" placeholder="Coisir une photo">
+                        <span>Formats acceptes : JPG, JPEG, PNG. Taille maximale : 10MB</span>
+                    </div>
+                </fieldset>
+                <input type="submit" value="Envoyer">
+            </form>
+        </section>
+        
+    </main>
+    <footer id="contact">
+        <div class="content-footer">
+            <div class="content">
+                <h4>A propos</h4>
+                <ul>
+                    <li>Qui somme-nous</li>
+                    <li>Contact</li>
+                    <li>Mentions legales</li>
+                    <li>politique de confidentialite</li>
+                </ul>
+            </div>
+            <div class="content">
+                <h4>Service</h4>
+                <ul>
+                    <li>Traiteurs</li>
+                    <li>Restaurants</li>
+                    <li>Cours de cuisine</li>
+                </ul>
+            </div>
+            <div class="content">
+                <h4>Espace Pro</h4>
+                <ul>
+                    <li>Devir partenaire</li>
+                    <li>connexion</li>
+                    <li>FAQ pROFESSIONNEL</li>
+                </ul>
+            </div>
+            <div class="content">
+                <h4>Contact</h4>
+                <ul>
+                    <li>Star Buffet</li>
+                    <li>Dakar Senegal</li>
+                    <li>Tel : 77 000 00 00</li>
+                    <li>Email : contact@starbuffet.com</li>
+
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2025 Star Buffet. Tous droits reserves</p>
+    </footer>
+
+</body>
+
+</html>

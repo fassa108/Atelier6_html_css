@@ -1,0 +1,80 @@
+.formulaire {
+    padding: 100px 150px;
+    background-color: antiquewhite;
+}
+
+.formulaire form{
+    padding: 50px;
+    background-color: white;
+    border-radius: 30px;
+}
+.formulaire .field-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+.formulaire form fieldset{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+.formulaire form fieldset div{
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.formulaire form fieldset .special{
+    display: flex;
+    flex-direction: column;
+}
+.formulaire form fieldset .special .check{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.formulaire form fieldset .special .check .check-box{
+    display: flex;
+    width: 200px;
+    justify-content: end;
+}
+.formulaire form fieldset .special .check .check-box label{
+    margin: 0;
+}
+
+.formulaire form fieldset div label{
+    padding-bottom: 10px;
+}
+.formulaire form fieldset div input{
+    padding: 5px;
+    width: 95%;
+    border-radius: 5px;
+}
+.formulaire form fieldset div select{
+    width: 95%;
+    padding: 5px;
+}
+.formulaire form fieldset div textarea{
+    border-radius: 5px;
+    width: 95%;
+}
+.formulaire form input[type ="submit"]{
+    float: right;
+    margin: 10px;
+    padding: 5px 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    transition: 0.5s;
+}
+.formulaire form input[type ="submit"]:hover{
+    background-color: lightgreen;
+    color: green;
+}
