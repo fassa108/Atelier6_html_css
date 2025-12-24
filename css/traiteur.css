@@ -1,3 +1,10 @@
+.btn {
+    background-color: #e65100;
+    border: 1px solid #e65100;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+}
 .presentation{
     background: url(../images/banner-caterers.jpg);
     background-color: #ffb300;
@@ -47,31 +54,33 @@
     overflow: hidden;
     width: 100%;
 }
-.commander .clair{
-
+.commande .clair{
+    position: relative;
     background: rgb(175, 98, 4);
     opacity: 0.9;
     width: 100%;
-    
+    /* z-index: 1; */
 }
 .commande{
-    /* position: relative; */
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 30px;
+    /* padding: 30px; */
     background: url(../images/banner-head-accueil.jpg);
     background-size:cover;
     background-position: center;
-    
+    margin-top: 100px;
 }
 
 .commande h2{
+    /* position: relative; */
     font-size: 28px;
     color: #000;
     margin: 10px;
+    /* z-index: 1; */
 }
 .commande p{
     font-size: 15px;
@@ -80,11 +89,16 @@
 }
 .commande button{
     background-color: #fff;
-    padding: 15px;
+    padding: 15px 20px;
     border: 1px solid white;
-    border-radius: 20px;
+    border-radius: 15px;
     margin: 10px;
     transition: 0.5s;
+}
+.commande button a{
+    text-decoration: none;
+    color: #ee7839;
+    font-weight: bold;
 }
 
 .commande button:hover{
@@ -93,7 +107,7 @@
     padding: 15px 20px;
     box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
 }
-.commande button:hover span{
+.commande button:hover a{
     color: #fff;
 }
 
@@ -111,13 +125,13 @@
     justify-content: space-between;
     align-items: center;
     width: 70%;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .form-filtre .filtre form .myflex{
     display: flex;
     flex-direction: column;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     margin:0 10px;
 }
 
@@ -126,12 +140,14 @@
     padding: 5px;
     width: 100%;
     border-radius: 5px;
-    margin:0 10px;
+    /* margin:0 10px; */
+    margin-top: 0;
 }
 .form-filtre .filtre form .buton{
     display: flex;
     justify-content: space-between;
     margin: 10px;
+    margin-top: 30px;
     
 }
 .form-filtre .filtre form .b1 button{
@@ -162,11 +178,27 @@
     margin: 10px;
 }
 .form-filtre .box .img{
+    position: relative;
     object-fit: cover;
     width: 350px;
-    height: 140px;
+    height: 170px;
     overflow: hidden;
-    align-self: center;
+    /* align-self: center; */
+}
+.form-filtre .box .img p{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    background-color: lightgreen;
+    color: darkgreen;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: 10px;
+}
+.form-filtre .box .img p i{
+    margin: 2px;
+
 }
 .form-filtre .box .filtre2{
     display: flex;
@@ -214,19 +246,3 @@
 
 
 
-/* .form-filtre .box{
-    display: flex;
-    width: 80%;
-}
-.form-filtre .box .filtre2{
-    display: flex;
-    justify-content: space-between;
-    height: 100px;
-    
-}
-.filtre2 .note{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: end;
-} */

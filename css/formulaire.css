@@ -37,12 +37,18 @@
 .formulaire form fieldset .special .check{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    
 }
 
 .formulaire form fieldset .special .check .check-box{
     display: flex;
-    width: 200px;
-    justify-content: end;
+    flex-direction: row;
+    /* width: 200px; */
+    
+}
+.formulaire form fieldset .special .check .check-box input[type="checkbox"]{
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 .formulaire form fieldset .special .check .check-box label{
     margin: 0;
@@ -53,7 +59,7 @@
 }
 .formulaire form fieldset div input{
     padding: 5px;
-    width: 95%;
+    /* width: 95%; */
     border-radius: 5px;
 }
 .formulaire form fieldset div select{
@@ -64,6 +70,7 @@
     border-radius: 5px;
     width: 95%;
 }
+
 .formulaire form input[type ="submit"]{
     float: right;
     margin: 10px;
