@@ -1,0 +1,116 @@
+main{
+    background: url(../images/pattern-background.svg) lightgoldenrodyellow;
+    background-repeat: repeat;
+    padding: 50px 30px;
+}
+.photo-profil {
+    position: relative;
+    height: 50vh;
+    background: url(../images/plat1.png);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    /* margin: 30px; */
+    border-radius: 5px;
+}
+.photo-profil .etiquette{
+    position: absolute;
+    bottom: 10px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.photo-profil .etiquette p {
+    color: white;
+}
+
+.photo-profil .etiquette p span .fa-star{
+    color: orange;
+    margin: 5px;
+}
+
+.photo-profil .etiquette p span .fa-circle-check{
+    color: green;
+    margin: 5px;
+}
+
+.detail {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.detail .detail1{
+    width: 65%;
+}
+.detail .detail2{
+    width: 30%;
+}
+.detail .detail1 .bloc{
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 40px;
+    /* border: 1px solid grey; */
+    border-radius: 5px;
+}
+.detail .detail1 .service{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+} 
+
+.detail .detail1 .bloc h3{
+    margin: 10px 0;
+
+}
+.detail .detail1 .bloc .p1 {
+    color: #999;
+}
+.detail .detail1 .bloc .gris{
+    background-color: lightgray;
+    padding: 2px 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.detail .detail1 .service span{
+    color: green;
+    margin-right: 10px;
+} 
+
+.detail2 .bloc {
+    background-color: white;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.detail2 .bloc h3{
+    margin: 10px 0;
+}
+.detail2 .bloc p{
+    margin: 10px 0;
+}
+
+.detail2 .bloc p span{
+    margin-right: 10px;
+}
+
+.detail2 .bloc p .langue{
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+
+.detail2 .bloc button{
+    width: 95%;
+    padding: 10px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.detail2 .bloc button span{
+    margin-right: 10px;
+}

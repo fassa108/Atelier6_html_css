@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/cea1cd501f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="logo du site">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#service">Restaurants</a></li>
+                <li><a href="formulaire.html">Cours de cuisine</a></li>
+                <li><a href="traiteur.html">Traiteurs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="boutons-header">
+            <button><span>Connexion</span></button>
+            <button class="btn">
+                <span>Inscription</span>
+            </button>
+        </div>
+    </header>
+    <main>
+        <form action="traitement.php">
+            <h4>Connexion</h4>
+            <div class="ligne">
+                <label for="email">Email</label>
+                <input type="text" id="email">
+            </div>
+            <div class="ligne">
+                <label for="mot_de_passe">Mot de passe</label>
+                <input type="text" id="mot_de_passe">
+            </div>
+            <div>
+                <div class="espace">
+                    <input type="checkbox" id="check">
+                    <label for="check">Se souvenir de moi</label>
+                </div>
+                <a href="#">Mot de passe oublie?</a>
+                <div>
+                    <a href="#">Pas de compte? Inscrivez-vous</a>
+                </div>
+                <input type="submit" value="Se connecter">
+            </div>
+            
+        </form>
+    </main>
+    <footer id="contact">
+        <div class="content-footer">
+            <div class="content">
+                <h4>A propos</h4>
+                <ul>
+                    <li>Qui somme-nous</li>
+                    <li>Contact</li>
+                    <li>Mentions legales</li>
+                    <li>politique de confidentialite</li>
+                </ul>
+            </div>
+            <div class="content">
+                <h4>Service</h4>
+                <ul>
+                    <li>Traiteurs</li>
+                    <li>Restaurants</li>
+                    <li>Cours de cuisine</li>
+                </ul>
+            </div>
+            <div class="content">
+                <h4>Espace Pro</h4>
+                <ul>
+                    <li>Devir partenaire</li>
+                    <li>connexion</li>
+                    <li>FAQ pROFESSIONNEL</li>
+                </ul>
+            </div>
+            <div class="content">
+                <h4>Contact</h4>
+                <ul>
+                    <li>Star Buffet</li>
+                    <li>Dakar Senegal</li>
+                    <li>Tel : 77 000 00 00</li>
+                    <li>Email : contact@starbuffet.com</li>
+                    <li><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2025 Star Buffet. Tous droits reserves</p>
+    </footer>
+
+</body>
+
+</html>
