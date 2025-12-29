@@ -78,7 +78,7 @@ nav ul li a{
     border: 1px solid #e65100;
     border-radius: 10px;
 }
-.boutons-header .btn span{
+.boutons-header .btn span a{
     color: #fff;
 }
 .boutons-header .btn:hover{
