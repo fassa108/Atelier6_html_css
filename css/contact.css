@@ -1,0 +1,122 @@
+.formulaire{
+    background-color: #f5f4b7;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulaire h1{
+    color: #e65100;
+}
+.formulaire p{
+    text-align: center;
+    margin: 15px 0;
+}
+
+.formulaire form{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 30px 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+}
+
+.formulaire form .content{
+    display: flex;
+    flex-direction: column;
+    
+    margin: 10px ;
+}
+.formulaire form .content input{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+}
+.formulaire form .content textarea{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+}
+form input[type="submit"] {
+    margin-top: 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #e65100;
+    transition:  all 0.5s;
+    border: none;
+}
+form input[type="submit"]:hover {
+    background-color: green;
+    color: #fff;
+    border-radius: 15px;
+}
+
+
+.cartes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.cartes .carte{
+    width: 100%;
+    text-align: center;
+    background-color: #f5f4b7;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 1em;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+}
+
+.cartes .carte span{
+    display: inline-block;
+    background-color: #e65100;
+    padding: 12px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.cartes .carte span i{
+    color: #fff;
+}
+.cartes .carte h5{
+    margin: 10px 0;
+}
+
+.cartes .carte p{
+    color: #999;
+}
+
+
+
+@media (min-width: 1024px) {
+    .formulaire form{
+        width: 50%;
+    }
+    .formulaire form .nom_prenom{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+    .cartes{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        padding: 10vh;
+    }
+    .cartes .carte{
+        width: 25%;
+    }
+}
+
+/* F58727 */

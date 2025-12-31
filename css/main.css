@@ -289,3 +289,113 @@ input[type="submit"]:hover {
     color: #fff;
     border-radius: 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .presentation{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .presentation .gauche, .droite{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+    .presentation .gauche h1{
+        font-size: 24px;
+        margin: 0;
+    }
+
+
+    .droite img{
+        width: 100%;
+    }
+
+    .list-statis{
+        
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* justify-content: center;
+        align-items: center; */
+    }
+
+
+    .list-statis .statis{
+        width:80%;
+        margin: 20px;
+        padding: 5px;
+        /* margin: 30px;
+         */
+    }
+
+    .services{
+        padding: 10px;
+    }
+    .services .list-services{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .services .list-services .service{
+    width: 95%;
+    margin: 10px;
+    }
+    /* .services p{
+        text-align: center;
+    } */
+
+    .carte{
+        width: 100%;
+        padding: 50px 0;
+    }
+    .carte .div-carte {
+        width: 90%;
+        height:auto;
+        padding: 0;
+    }
+    .carte .div-carte iframe{
+        width: 100%;
+        height: 300px;
+    }
+
+    .avis{
+        padding: 10px;
+        text-align: center;
+    }
+    .list-avis{
+        display: flex;
+        flex-direction: column;
+    }
+    .avis .list-avis .avi{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+
+    .formulaire{
+        width: 100%;
+    }
+
+    .formulaire form{
+        width: 100%;
+        padding: 10px;
+    }
+}

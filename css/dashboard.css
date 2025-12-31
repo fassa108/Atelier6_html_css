@@ -30,10 +30,11 @@ main{
     margin-top: 20px;
 }
 
-.nav ul li{
+.nav ul li a{
     margin: 15px 0;
     font-weight: 500;
     color: white;
+    text-decoration: none;
 }
 .nav ul li span{
     padding-right: 10px;

@@ -13,7 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 10px;
     position: relative;
     height: 40vh;
 }
@@ -37,7 +37,7 @@
     color: #fff;
     font-weight: bold;
     font-size: 24px;
-    margin: 10px;
+    margin: 10px 0;
 }
 .presentation .gauche h1 span{
     color: #ffb300;
@@ -150,19 +150,22 @@
     margin-top: 30px;
     
 }
-.form-filtre .filtre form .b1 button{
+
+.form-filtre .filtre form .buton .b1{
     padding: 5px 10px;
     margin-left: 10px;
     background-color: #ffb300;
     border: none;
     border-radius: 5px;
     color: #fff;
+    margin: 0 10px;
 }
-.form-filtre .filtre form .b2 button{
+.form-filtre .filtre form .buton .b2 {
     padding: 5px 10px;
     background-color: #fff;
     border: none;
     border-radius: 5px;
+    margin: 0 10px;
 }
 .filtre form{
     display: flex;
@@ -233,16 +236,73 @@
     border: none;
 }
 
+.form-filtre .box .filtre2 .note button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .presentation .gauche{
+        width: 100%;
+    }
+
+
+    .form-filtre .filtre form{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 90%;
+    }
+
+    .form-filtre .filtre {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    .form-filtre .filtre form .myflex{
+        width: 100%;
+    }
+    .form-filtre .filtre form .buton .b1{
+        margin-left: 0;
+        margin-top: 0;
+    }
+    /* .form-filtre .filtre form .ajout{
+        display: flex;
+        justify-content: start;
+        align-items: left;
+        margin: 0;
+    } */
+    .form-filtre .filtre form .b1{
+        display: inline;
+    }
+
+    .form-filtre .filtre form .myflex{
+        margin-bottom: 15px;
+    }
+
+
+    .form-filtre .box{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+    }
+
+
+    .form-filtre .box .img{
+        width: 400px;
+    }
+
+    .form-filtre .box img{
+        width: 100%;
+    }
+    .form-filtre .box .img p{
+        right: 40px;
+    }
 
 
 
 
-
-
-
-
-
-
-
-
-
+}

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ma Page</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/connexion.css">
+    <link rel="stylesheet" href="css/contact.css">
     <script src="https://kit.fontawesome.com/cea1cd501f.js" crossorigin="anonymous"></script>
 </head>
 
@@ -18,14 +18,14 @@
         <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
-                <li><a href="#service">Restaurants</a></li>
+                <li><a href="dashboard.html">Restaurants</a></li>
                 <li><a href="formulaire.html">Cours de cuisine</a></li>
                 <li><a href="traiteur.html">Traiteurs</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
         <div class="boutons-header">
-            <button><span>Connexion</span></button>
+            <button><span><a href="dashboard.html">Connexion</a></span></button>
             <button class="btn">
                 <span>Inscription</span>
             </button>
@@ -33,30 +33,57 @@
         <div class="menu"><i class="fa-solid fa-bars"></i></div>
     </header>
     <main>
-        <form action="traitement.php">
-            <h4>Connexion</h4>
-            <div class="ligne">
-                <label for="email">Email</label>
-                <input type="text" id="email">
-            </div>
-            <div class="ligne">
-                <label for="mot_de_passe">Mot de passe</label>
-                <input type="text" id="mot_de_passe">
-            </div>
-            <div>
-                <div class="espace">
-                    <input type="checkbox" id="check">
-                    <label for="check">Se souvenir de moi</label>
+        
+        <section class="formulaire">
+            <h1>Contacter-nous</h1>
+            <p>Nous sommes la pour vous aider. N'hesiter pas a nous contacter poir toute question ou suggestion</p>
+           <form action="traitement.php">
+                <div class="nom_prenom">
+                    <div class="content">
+                        <label for="prenom">Prenom</label>
+                        <input type="text" id="prenom">
+                    </div>
+                    <div class="content">
+                        <label for="nom">Nom</label>
+                        <input type="text" id="nom">
+                    </div>
                 </div>
-                <a href="#">Mot de passe oublie?</a>
+                <div class="content">
+                    <label for="email">Email</label>
+                    <input type="text" id="email">
+                </div>
+                <div class="content">
+                    <label for="tel">Numero de telephone</label>
+                    <input type="text" id="tel">
+                </div>
+                <div class="content">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5"></textarea>
+                    <input type="submit" value="Envoyer">
+                </div>
+                
+           </form>
+        </section>
+
+        <section id="carte" class="cartes">
+            <div class="carte">
+                <span><i class="fa-solid fa-phone"></i></span>
+                <h5>Telephone</h5>
+                <p>+221 xx xxx xx xx</p>
             </div>
-            <div>
-                <a href="#">Pas de compte? Inscrivez-vous</a>
+            <div class="carte">
+                <span><i class="fa-solid fa-envelope"></i></span>
+                <h5>Email</h5>
+                <p>contact@starbiffet,sn</p>
             </div>
-            <input type="submit" value="Se connecter">
-            
-            
-        </form>
+            <div class="carte">
+                <span><i class="fa-solid fa-location-dot"></i></span>
+                <h5>Adresse</h5>
+                <p>Dakar, Senegal</p>
+            </div>
+        </section>
+    
+        
     </main>
     <footer id="contact">
         <div class="content-footer">

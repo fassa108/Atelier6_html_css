@@ -4,9 +4,16 @@
     box-sizing: border-box;
     font-family: 'Poppins';
 }
+main{
+    background-color: whitesmoke;
+}
 form {
     width: 30%;
     margin: auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    
 }
